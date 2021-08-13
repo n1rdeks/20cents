@@ -4,7 +4,6 @@ const stop = document.getElementById('stop')
 const progress = document.getElementById('progress')
 const timestamp = document.getElementById('timestamp')
 
-video.controls = false
 
 const toggleVideoStatus = () => video.paused ? video.play() : video.pause()
 
@@ -44,3 +43,6 @@ video.addEventListener('timeupdate', updateProgress)
 play.addEventListener('click', toggleVideoStatus)
 stop.addEventListener('click', stopVideo)
 progress.addEventListener('change', setVideoProgress)
+
+//reset progressBar after reloading page
+progress.value = 0

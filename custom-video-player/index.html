@@ -13,7 +13,10 @@
 
 <body>
   <h1>Custom video player</h1>
-  <video src="videos/gone.mp4" id="video" class="screen" poster="img/poster.png"></video>
+  <!-- oncontextmenu disable menu right click mouse button -->
+  <video src="videos/gone.mp4" id="video" 
+    class="screen" poster="img/poster.png"
+    oncontextmenu="return false;"></video>
 
   <div class="controls">
     <button class="btn" id="play">
