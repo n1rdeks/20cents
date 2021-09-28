@@ -16,7 +16,7 @@ const checkEmail = field => {
 const showError = (input, message) => {
   const formControl = input.parentElement
   const smallTag = formControl.querySelector('small')
-  
+
   formControl.className = 'form-control error'
   smallTag.innerText = message
 }
@@ -67,11 +67,10 @@ form.addEventListener('submit', e => {
   const maxLengthName = 16
   const minLengthPasswd = 6
   const maxLengthPasswd = 10
-  
+
   checkRequired([username, email, password, passwordConfirm])
   checkLength(username, minLengthName, maxLengthName)
   checkLength(password, minLengthPasswd, maxLengthPasswd)
   checkEmail(email)
   checkPasswordMatch(password, passwordConfirm)
 })
-

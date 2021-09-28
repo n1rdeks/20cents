@@ -86,7 +86,7 @@ h2 {
   background-color: #3498db;
   border: 2px solid #3498db;
   border-radius: 4px;
-  color: white;
+  color: #fff;
   display: block;
   padding: 5px;
   margin-top: 20px;
@@ -96,7 +96,7 @@ h2 {
 
 .form button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3); 
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 .form button:hover::after {
@@ -109,4 +109,3 @@ h2 {
   transform: translateY(0px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
 }
-
