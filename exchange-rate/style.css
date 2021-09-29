@@ -62,6 +62,7 @@ p {
 
 .currency input {
   border: 0;
+  box-shadow: none;
   background: transparent;
   font-size: 30px;
   text-align: right;
