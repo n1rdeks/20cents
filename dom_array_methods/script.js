@@ -42,5 +42,4 @@ function updateDOM(provideData = data) {
 
 }
 
-function formatMoney() {
-}
+addUserBtn.addEventListener('click', getRandomUser)
